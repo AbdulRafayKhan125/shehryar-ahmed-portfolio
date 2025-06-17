@@ -184,10 +184,11 @@ html {
 }
 
 .heror>img {
+    margin-left: 20px;
     margin-top: 10vh;
     height: 75%;
-    width: 75%;
-    border-radius: 40px;
+    width: 72.5%;
+    border-radius: 50%;
 }
 
 .sec2 {
@@ -385,4 +386,149 @@ html {
     .herol>a {
         margin-bottom: 0px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about page */
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* About Me Section */
+.about-me {
+    height:100vh;
+  padding: 60px 20px;
+  background-color: #F5FCFF ;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-me h1 {
+    margin-top: 20px;
+  font-size: 2.5rem;
+  color: #282938;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 15px 0;
+  color:#52557D;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-me h1 {
+    font-size: 2rem;
+  }
+
+  .about-me p {
+    font-size: 1rem;
+  }
+}
+
+
+
+/* contact page  */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.contact-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-box {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  transition :1s all cubic-bezier(0.19, 1, 0.22, 1);
+}
+.contact-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-bottom: 2px solid #5E3BEE;
+}
+
+.contact-box h2 {
+  color: #1a73e8;
+  margin-bottom: 20px;
+}
+
+.social-links,
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #1a73e8;
+}
+
+.social-links i,
+.get-in-touch i {
+  margin-right: 10px;
+  color: #1a73e8;
+}
+
+.get-in-touch p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contact-box {
+    padding: 20px;
+  }
+
+  .contact-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .social-links a,
+  .get-in-touch p {
+    font-size: 1rem;
+  }
 }
