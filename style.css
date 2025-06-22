@@ -5,6 +5,8 @@
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: roboto;
+    background-color: #000;
+    color:#fff;
 }
 
 
@@ -19,7 +21,8 @@ html {
 .nav {
     height: 10vh;
     width: 100vw;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    color:#fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,7 +34,7 @@ html {
 }
 
 .logo {
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -50,7 +53,7 @@ html {
 }
 
 .links a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
 }
@@ -78,6 +81,7 @@ html {
 .menu-toggle {
     display: none;
     flex-direction: column;
+        color:#fff;
     cursor: pointer;
 }
 
@@ -86,6 +90,7 @@ html {
     width: 25px;
     background: rgb(0, 0, 0);
     margin: 4px 0;
+        color:#fff;
     transition: all 0.3s ease;
 }
 
@@ -93,6 +98,7 @@ html {
 .mobile-menu {
     display: none;
     position: absolute;
+        color:#fff;
     top: 10vh;
     left: 0;
     width: 100%;
@@ -114,8 +120,6 @@ html {
 .sec1 {
     height: 100vh;
     width: 100vw;
-    /* background-color: red; */
-    background-color: #F5FCFF;
     display: flex;
 }
 
@@ -227,7 +231,7 @@ html {
 .box {
     height: 75%;
     width: 20%;
-    background-color: #F5FCFF;
+    background-color: #5E3BEE;
     border-radius: 10px;
     transition: all .3s ease-in-out;
     display: flex;
@@ -246,7 +250,7 @@ html {
 }
 
 .box>i {
-    background-color: #ffffff;
+    background-color: #973bee8e;
     width: 25%;
     height: 20%;
     font-size: 2.3em;
@@ -263,7 +267,7 @@ html {
     display: flex;
     align-items: center;
     margin-left: 5%;
-    /* background-color: #5E3BEE; */
+    background-color: #5E3BEE;
 }
 
 .box>p {
@@ -273,7 +277,8 @@ html {
     font-size: 1.1em;
     align-items: center;
     margin-left: 5%;
-    color:#1C1E53;
+    background-color: #5E3BEE;
+    color:#fff;
 }
 
 .box:hover {
@@ -299,18 +304,29 @@ html {
 
     .links,
     .nav-button {
+        color:#fff;
+
         display: none;
     }
 
     .menu-toggle {
+        background-color: #5E3BEE;
         display: flex;
+        width:50px;
+        height:50px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .mobile-menu {
+        color:#fff;
         display: none;
     }
 
     .mobile-menu.open {
+        color:#fff;
         display: flex;
         animation: slideDown 0.3s ease forwards;
     }
@@ -378,9 +394,9 @@ html {
     }
 
     .heror>img {
-        height: 100%;
+        height: 90%;
         width: auto;
-        margin-top: -30px;
+        margin-top: -8px;
     }
 
     .herol>a {
@@ -404,7 +420,7 @@ html {
 /* Base styles */
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: roboto;
   background-color: #f8f9fa;
   color: #333;
 }
@@ -413,7 +429,7 @@ body {
 .about-me {
     height:100vh;
   padding: 60px 20px;
-  background-color: #F5FCFF ;
+  background-color: #000000 ;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -426,7 +442,7 @@ body {
 .about-me h1 {
     margin-top: 20px;
   font-size: 2.5rem;
-  color: #282938;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -434,7 +450,7 @@ body {
   font-size: 1.1rem;
   line-height: 1.8;
   margin: 15px 0;
-  color:#52557D;
+  color:#ffffff;
 }
 
 /* Responsive styles */
@@ -468,22 +484,24 @@ body {
 }
 
 .contact-box {
-  background-color: #fff;
+  background-color: #5E3BEE;
+  color:#fff;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
   text-align: center;
-  max-width: 500px;
+  max-width: 500px;background-color:#5E3BEE;
   width: 100%;
   transition :1s all cubic-bezier(0.19, 1, 0.22, 1);
 }
 .contact-box:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-bottom: 2px solid #5E3BEE;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 15px;background-color:#5E3BEE;
 }
 
 .contact-box h2 {
-  color: #1a73e8;
+  color: #ffffff;background-color:#5E3BEE;
   margin-bottom: 20px;
 }
 
@@ -491,15 +509,15 @@ body {
 .get-in-touch {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 15px;background-color:#5E3BEE;
   margin-bottom: 30px;
 }
 
 .social-links a {
   text-decoration: none;
+  color:#fff;
   font-size: 1.1rem;
-  color: #333;
-  transition: color 0.3s;
+  transition: color 0.3s;background-color:#5E3BEE;
 }
 
 .social-links a:hover {
@@ -509,12 +527,13 @@ body {
 .social-links i,
 .get-in-touch i {
   margin-right: 10px;
-  color: #1a73e8;
+  color:#fff;background-color:#5E3BEE;
+
 }
 
 .get-in-touch p {
   font-size: 1.1rem;
-  margin: 0;
+  margin: 0;background-color:#5E3BEE;
 }
 
 /* Responsive */

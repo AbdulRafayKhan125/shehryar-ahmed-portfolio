@@ -41,7 +41,7 @@ function Animation(){
         opacity:0,
     })
     gsap.from(".heror>img",{
-        scale:1.2,
+        scale:.8,
         opacity:0,
         duration:1.2,
     })
