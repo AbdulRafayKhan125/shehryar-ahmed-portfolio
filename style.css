@@ -531,10 +531,13 @@ body {
 
 }
 
-.get-in-touch p {
+.get-in-touch p ,.get-in-touch a {
   font-size: 1.1rem;
-  margin: 0;background-color:#5E3BEE;
+  margin: 0;
+  background-color:#5E3BEE;
+  text-decoration: none;
 }
+
 
 /* Responsive */
 @media (max-width: 600px) {
